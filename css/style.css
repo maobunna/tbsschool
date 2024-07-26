@@ -8306,14 +8306,14 @@ h1, h2, h3, h4, h5,
       }
       
       .newsroom .thumbnail {
-          font-size: 12px;
+          font-size: 14px;
           height: 100%;
           cursor: pointer;
           position: relative;
       }
       
       h4 {
-          font-size: 0.6rem;
+          font-size: 0.8rem;
           font-weight: 300;
           color: #fff;
       }
@@ -8330,12 +8330,12 @@ h1, h2, h3, h4, h5,
           display: flex;
       }
       
-      .thumbnail .overlay-inner {
+      .thumbnail-container .thumbnail .overlay-inner {
           position: absolute;
           background-color: rgba(0,0,0,0.7);
           bottom: 0px;
           padding: 6px 20px 2px 20px;
-          width: 90%;
+          width: 100%;
           max-width: 100%;
       }
       
@@ -8347,7 +8347,6 @@ h1, h2, h3, h4, h5,
       }
       
       .thumbnail:hover .overlay {
-          background-color: rgba(8,72,151,0.7);
           cursor: pointer;
       }
       
